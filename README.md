@@ -14,7 +14,7 @@ npm i wufeng-ui
 ```javaScript
 // 按需引入方式
 import 'wufeng-ui/dist/css/button.css'
-import { Button } from 'wufeng-ui'
+import Button from 'wufeng-ui/ui/packages/button'
 Vue.use(Button)
 
 // 全量导入方式 (npm包方式 | script标签方式配合externals)
